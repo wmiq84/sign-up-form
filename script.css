@@ -46,7 +46,7 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    flex: 0.38;
+    flex: 0.35;
     background-color: white;
 }
 
@@ -74,8 +74,30 @@ li {
 
 .footer {
     display: flex;
-    justify-content: start;
-    flex: 0.24;
+    flex-direction: column;
+    flex: 0.27;
+}
+
+.footer_sub {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem 0rem 3rem;
+    gap: 2rem;
+}
+
+button {
+    max-width: 15rem;
+    height: 2.5rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 6px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
 }
 
 /* 
@@ -100,5 +122,6 @@ h2 {
 
 .main p {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: .8rem;
 }
+
