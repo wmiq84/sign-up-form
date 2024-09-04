@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    background-image: url("images_fonts/background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    flex: 0.35;
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    background-color: aliceblue;
+    flex: 0.65;
+    height: 100vh;
+}
+
